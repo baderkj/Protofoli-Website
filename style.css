@@ -7,7 +7,9 @@
 	  box-sizing: border-box;
 	  scroll-behavior: smooth;
 }
-
+body{
+	width: 100%;
+}
 header{
 	background-color: #f0f0f0;
 	width: 90%;
@@ -96,6 +98,10 @@ transition: 0.7s ease;
 	background-color: #0a49f6;
 	transform: scale(1.1);
 }
+.social-icon{
+	display: flex;
+	justify-content: center;
+}
 .social-icons a{
 	color: #fff;
 	font-size: 1.7em;
@@ -144,6 +150,9 @@ font-weight: 700;
 margin: 10px;
 
 
+}
+.social-icons a{
+	cursor: pointer;
 }
 .projects{
 	background-color:#080816;
@@ -226,10 +235,10 @@ font-size: 4.5em
 
 
 @media (max-width: 1023px){
-header{
+/*header{
 	width: 80%;
 
-}
+}*/
 }
 @media (max-width: 1150px){
 header{
@@ -303,7 +312,7 @@ body{
 	font-size: 13px;
 }	
 header{
-	width: 85%;
+	/*width: 85%;*/
 	padding:12px 20px;
 	padding-left: 20px;
 }
@@ -317,8 +326,8 @@ body{
 }
 header{
 	padding-right: 20px;
-	width: 90%;
-
+	/*width: 90%;
+*/
 }
 .navigation a{
 	padding-left: 15px;
@@ -347,17 +356,19 @@ header{
 }
 
 }
-#arrow{
+.arrow{
 	position: fixed;
-	bottom: 30px;
-	right: 30px;
-	width: 30px;
-	height: 30px;
-	
+	bottom: 40%;
+	right: 40px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	border-radius: 50%;
+	background: #3a6cf4;
 	justify-content: center;
-	align-items: center;
-	
-
+	align-items: center;	
+	font-size: 30px;
+	cursor: pointer;
 }
 .hide{
 	display: none;
