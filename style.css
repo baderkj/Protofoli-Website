@@ -63,6 +63,7 @@ section{
 	background-attachment: scroll;
 }
 .main h2{
+	margin-top: 8px;
 	color:#fff;
 	font-size: 1.4em;
 	font-weight: 500;
@@ -137,6 +138,9 @@ flex-wrap: wrap;
 .card:hover{
 	transform: scale(1.1);
 }
+.card .info span {
+	font-weight:500 ;
+}
  .icon{
  	color: #3a6cf4;
  	font-size: 8em;
@@ -146,7 +150,7 @@ flex-wrap: wrap;
 .info{
 	text-align: center;
 }
-.info h3{
+.info h3 {
 color: #3a6cf4;
 font-size: 1.2em;
 font-weight: 700;
